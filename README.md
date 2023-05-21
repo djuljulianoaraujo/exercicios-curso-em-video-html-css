@@ -1,2 +1,2 @@
 # exercicios curso em video html css
- curso em video
+ curso em video exercicios
