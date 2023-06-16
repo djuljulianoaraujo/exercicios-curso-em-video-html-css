@@ -12,11 +12,11 @@
 <body>
     <header>
           <h1>Meu Site</h1>
-          <span class="material-symbols-rounded">
+          <span id="burguer" class="material-symbols-rounded" onclick="clickMenu()">
             menu
             </span>
             <!--O elemento HTML <span> é um conteiner generico em linha para conteúdo fraseado , que não representa nada por natureza. Ele pode ser usado para agrupar elementos para fins de estilo (usando os atributos class ou id ), ou para compartilhar valores de atributos como lang. Ele deve ser usado somente quando nenhum outro elemento semântico for apropriado. <span> é muito parecido com o elemento <div> , entretando <div> é um elemento de nível de bloco enquanto <span> é um elemento em linha.-->
-          <menu>
+          <menu id="itens">
             <ul>
                 <li><a href="#">Opção 1</a></li>
                 <li><a href="#">Opção 2</a></li>
@@ -44,5 +44,14 @@
         </article>
     </main>
     
+    <script>
+      function clickMenu() {
+           if (itens.style.display =='block') {
+              itens.style.display='none'
+           } else {
+            itens.style.display= 'block'
+           }
+      }
+    </script>
 </body>
 </html>

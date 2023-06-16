@@ -20,7 +20,21 @@ header > h1 {
 }
 
 menu {
+    display: none;
+}
+
+#burguer{
+    background-color: rgb(42, 42, 42);
+    color: white;
     display: block;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#burguer:hover{
+    background-color: white;
+    color: black;
 }
 
 menu > ul {
